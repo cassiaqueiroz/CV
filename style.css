@@ -1,0 +1,147 @@
+html,body{
+       font-family: 'Lato', sans-serif;
+       color: white;
+}
+
+body{
+      background-color: #011427;
+}
+header{
+      background-image: url("https://live.staticflickr.com/65535/52816093203_1f14ae0288_h.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      padding: 18%;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+}
+.nav {
+  background-color: #DADFE4;
+  overflow: hidden;
+  text-align: center;
+  display: table;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+.nav ul {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background: #895ccd;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0 auto;
+  display: block;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.nav li {
+  color: #895ccd;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav li a {
+  display: inline-block;
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+
+}
+
+.nav li a:hover {
+  background-color: white;
+  color: #011427;
+  border: 3px solid #895ccd;
+  border-radius: 90px;
+  opacity: 0.6;
+}
+
+.p1{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.perfil {
+     height: auto;
+     width: 30%;
+     margin-bottom: 70px;
+     padding: 0;
+     float: right;
+     display: flex;
+     height: auto;
+     border: 10px solid white;
+}
+
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #011427;
+}
+
+
+
+p{
+   color: white;
+   font-size: 20px;
+}
+
+.bigger{
+    text-align: center;
+    font-size: 60px;
+}
+
+.description{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+footer {
+    position: static;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+
+.footer {
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    align-items: center;
+
+}
+
+.rodape {
+    width: 25px;
+}
+
+.location {
+    width: 35px;
+
+}
+
